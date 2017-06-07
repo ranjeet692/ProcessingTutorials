@@ -67,8 +67,8 @@ void setSortCode(){
     }
 }
 void setup(){
-    size(800,350);
-    anim=new Animation(800, 350);
+    size(1110,350);
+    anim=new Animation(1110, 350);
     code=new AnimatedCode(480,100);
     setSortCode(code);
     //anim.setColour(color(46,129,215));

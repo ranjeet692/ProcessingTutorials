@@ -91,17 +91,17 @@ class AnimatedCode extends AnimationObject{
             pushStyle();
             textFont(font_);
             textAlign(LEFT);
-            fill(0, 170, 255);
+            fill(6, 138, 214);
             stroke(250);
             rect(x_,y_,codeWidth_,sz_*lineHeight_+10);
-            fill(255,255,255);
+            fill(36, 20, 206);
             stroke(250);
             if(highlighterStart_!=-1){
                 for(int i=highlighterStart_; i<= highlighterEnd_;i++){
                     rect(x_+5,y_+(i*lineHeight_+lineHeight_/4),codeWidth_-10,lineHeight_);
                 }
             } 
-            fill(255, 49, 121);
+            fill(255, 255, 255);
             for(int i=0;i<sz_;i++){
                 text(lines_[i],x_+10,y_+((i+1)*lineHeight_));
             }
